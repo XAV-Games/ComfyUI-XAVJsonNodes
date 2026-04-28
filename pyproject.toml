@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-XAV-Json-Nodes"
 version = "1.0.0"
-description = "Nodes to load, navigate, create, modify and save JSON data inside ComfyUI workflows."
+description = "Nodes to fast load, navigate, create, modify and save JSON data inside ComfyUI workflows."
 author = "XAV"
 license = {text = "MIT"}
 dependencies = []
