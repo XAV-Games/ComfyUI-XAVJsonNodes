@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main-blocked
+      - main
     paths:
       - "pyproject.toml"
 
@@ -14,11 +14,10 @@ jobs:
   publish-node:
     name: Publish Custom Node to registry
     runs-on: ubuntu-latest
-    if: ${{ github.repository_owner == 'ltdrdata' }}
     steps:
       - name: Check out code
         uses: actions/checkout@v4
-      - name: Publish Custom Node
+      - name: Publish Node to Comfy Registry
         uses: Comfy-Org/publish-node-action@v1
         with:
           personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
