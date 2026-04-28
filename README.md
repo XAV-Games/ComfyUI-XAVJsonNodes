@@ -33,7 +33,7 @@ In practice, operations like loading a 10 MB JSON, navigating deep paths, and mo
 ### Method 1: via ComfyUI Manager (recommended)
 
 1. Open ComfyUI and go to **Manager** → **Install Custom Nodes**.
-2. Search for `ComfyUI JSON Nodes` and click **Install**.
+2. Search for **ComfyUI XAV JSON Nodes** and click **Install**.
 3. Restart ComfyUI.
 
 ### Method 2: manual install
