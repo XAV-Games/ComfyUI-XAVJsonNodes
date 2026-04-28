@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-XAV-Json-Nodes"
+version = "1.0.0"
+description = "Nodes to load, navigate, create, modify and save JSON data inside ComfyUI workflows."
+author = "XAV"
+license = {text = "MIT"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/XAV-Games/ComfyUI-XAVJsonNodes"
+
+[tool.comfy]
+PublisherId = "xav"
+DisplayName = "ComfyUI XAV JSON Nodes"
+Icon = "https://xav.su/favicon_io/android-chrome-512x512.png"
