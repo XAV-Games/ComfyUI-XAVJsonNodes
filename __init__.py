@@ -1,4 +1,4 @@
-NODE_ID = "comfyui-xav-json-nodes"
+NODE_ID = "ComfyUI-XAV-Json-Nodes"
 
 from .nodes import (
     LoadJSONFile,
