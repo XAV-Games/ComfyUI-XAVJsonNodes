@@ -1,5 +1,5 @@
 [project]
-name = "ComfyUI-XAV-Json-Nodes"
+name = "comfyui-xav-json-nodes"
 version = "1.0.1"
 description = "Nodes to fast load, navigate, create, modify and save JSON data inside ComfyUI workflows."
 author = "XAV"

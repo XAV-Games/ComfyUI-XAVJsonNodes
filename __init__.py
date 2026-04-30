@@ -1,3 +1,5 @@
+NODE_ID = "comfyui-xav-json-nodes"
+
 from .nodes import (
     LoadJSONFile,
     NavigateJSON,
